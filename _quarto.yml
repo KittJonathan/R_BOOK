@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "R_BOOK"
-  author: "Norah Jones"
+  title: "FORMATIONS R"
+  author: "Jonathan Kitt"
   date: "18/11/2024"
   chapters:
     - index.qmd
