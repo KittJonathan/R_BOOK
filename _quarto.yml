@@ -7,6 +7,11 @@ book:
   date: "18/11/2024"
   chapters:
     - index.qmd
+    - part: premiers-pas.qmd
+      chapters: 
+        - def-r.qmd
+        - installer-r.qmd
+        - intro-r.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd

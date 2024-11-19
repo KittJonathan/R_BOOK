@@ -1,0 +1,9 @@
+# Premiers pas avec R {.unnumbered}
+
+Dans cette partie nous allons nous familiariser avec R :
+
+-   @sec-def-r
+
+-   @sec-installer-r
+
+-   @sec-intro-r

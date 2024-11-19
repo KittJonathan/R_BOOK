@@ -1,21 +1,12 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "FORMATIONS R",
-    "section": "",
-    "text": "Introduction\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "def-r.html",
+    "href": "def-r.html",
     "title": "1  Qu’est-ce que R ?",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "R est un langage de programmation statistique qui a rapidement gagné en popularité dans de nombreux domaines scientifiques.\nIl a été développé par Ross Ihaka et Robert Gentleman, du Département de Statistiques de l’Université d’Auckland, comme implémentation libre du langage de programmation S.\n\n\n\n\n\n\n\nQuelques dates\n\n\n\n\n\n\n1991\nCréation du langage R\n\n\n1993\nR est dévoilé au public\n\n\n1996\nArticle dans le Journal of Computational and Graphical Statistics\n\n\n\n\n\n\nR désigne également le logiciel qui utilise ce langage pour des calculs statistiques (et tout un tas d’autres applications (manipulation de données, graphiques, …).\nIl dispose d’une communauté en ligne très active ainsi que d’extensions appelées packages pour presque tous les domaines et applications possibles et imaginables (cartographie, fouille de texte, modélisation, …).\nContrairement à d’autres logiciels de statistiques comme Minitab ou SPSS, R peut être exécuté entièrement en ligne de commande et ne nécessite pas d’interface graphique, ce qui lui confère une grande flexibilité.\n\n\n\n\n\n\n\nQuelques avantages de R\n\n\n\n\nC’est un outil libre et open source (tout le monde peut utiliser le code et voir comment il fonctionne)\nC’est un langage de programmation plutôt qu’une interface graphique, ce qui permet à l’utilisateur de sauvegarder facilement des scripts pour les ré-utiliser ou les partager\nBeaucoup de personnes l’utilisent dans beaucoup de domaines différents - il est rare d’être confronté à un problème qui n’a jamais été résolu !",
     "crumbs": [
+      "Premiers pas avec R",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Qu'est-ce que R ?</span>"
     ]
   }

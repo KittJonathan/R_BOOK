@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jonathan Kitt">
-<meta name="dcterms.date" content="2025-06-11">
 
-<title>FORMATIONS R</title>
+<title>2&nbsp; Installer R et RStudio – FORMATIONS R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./premiers-pas.html" rel="next">
+<link href="./intro-r.html" rel="next">
+<link href="./def-r.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Bienvenue</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./premiers-pas.html">Premiers pas avec R</a></li><li class="breadcrumb-item"><a href="./installer-r.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installer R et RStudio</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -109,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Bienvenue</span></a>
   </div>
 </li>
@@ -130,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./installer-r.html" class="sidebar-item-text sidebar-link">
+  <a href="./installer-r.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installer R et RStudio</span></span></a>
   </div>
 </li>
@@ -170,35 +169,32 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#bienvenue" id="toc-bienvenue" class="nav-link active" data-scroll-target="#bienvenue">Bienvenue</a></li>
+  <li><a href="#download_install_r" id="toc-download_install_r" class="nav-link active" data-scroll-target="#download_install_r"><span class="header-section-number">3</span> Télécharger et installer R</a>
+  <ul class="collapse">
+  <li><a href="#télécharger-r" id="toc-télécharger-r" class="nav-link" data-scroll-target="#télécharger-r"><span class="header-section-number">3.1</span> Télécharger R</a></li>
+  <li><a href="#installer-r" id="toc-installer-r" class="nav-link" data-scroll-target="#installer-r"><span class="header-section-number">3.2</span> Installer R</a></li>
+  </ul></li>
+  <li><a href="#download_install_rstudio" id="toc-download_install_rstudio" class="nav-link" data-scroll-target="#download_install_rstudio"><span class="header-section-number">4</span> Télécharger et installer RStudio</a>
+  <ul class="collapse">
+  <li><a href="#télécharger-rstudio" id="toc-télécharger-rstudio" class="nav-link" data-scroll-target="#télécharger-rstudio"><span class="header-section-number">4.1</span> Télécharger RStudio</a></li>
+  <li><a href="#installer-rstudio" id="toc-installer-rstudio" class="nav-link" data-scroll-target="#installer-rstudio"><span class="header-section-number">4.2</span> Installer RStudio</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./premiers-pas.html">Premiers pas avec R</a></li><li class="breadcrumb-item"><a href="./installer-r.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installer R et RStudio</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">FORMATIONS R</h1>
+<h1 class="title"><span id="sec-installer-r" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installer R et RStudio</span></span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Jonathan Kitt </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 11, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -208,20 +204,128 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="bienvenue" class="level1 unnumbered">
-<h1 class="unnumbered">Bienvenue</h1>
-<p>Ce livre regroupe les supports de formations R proposées dans le cadre des <strong>ateliers codons</strong>.</p>
-<p>Ces ateliers ont pour but de regrouper les utilisateurs de R au sein d’un laboratoire de recherche lors de sessions de 2 à 3 heures pour découvrir, re-découvrir ou progresser en R.</p>
-<p>Ces ateliers sont encadrés par une personne familière avec R et le contenu des supports, avec si nécessaire l’appui de personnes supplémentaires pour aider les participants.</p>
-<p>L’idée des ateliers est de “plonger dans le bain” rapidement, sans consacrer trop de temps à des explications théoriques déconnectées de la pratique.</p>
-<p>Les explications théoriques seront apportées au fur et à mesure des cas concrets.</p>
-<p>L’animation d’un atelier peut se faire de plusieurs manières :</p>
-<ul>
-<li><p>projeter sur un écran la session de la personne qui anime l’atelier, pour une démonstration “en live”</p></li>
-<li><p>projeter les diapositives associées au contenu d’un atelier, qui contiennent le code et des questions / exercices</p></li>
-</ul>
+<p><em>Ce tutoriel est adapté de <a href="https://ourcodingclub.github.io/tutorials/intro-to-r/">Getting started with R and RStudio</a> du site <a href="https://ourcodingclub.github.io/">Our Coding Club</a>.</em></p>
+<p><br></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ce tutoriel vous permettra d’installer R et RStudio sous <strong>Windows</strong></p>
+</div>
+</div>
+<p><br></p>
+<section id="download_install_r" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Télécharger et installer R</h1>
+<p><br></p>
+<section id="télécharger-r" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="télécharger-r"><span class="header-section-number">3.1</span> Télécharger R</h2>
+<p>Naviguez jusqu’au site internet du <a href="https://cran.r-project.org/"><strong>CRAN (<em>The Comprehensive R Archive Network</em>)</strong></a> et choisissez <strong>Download R for Windows</strong>.</p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_01.png" class="img-fluid" style="width:100.0%"></a></p>
+<p><br></p>
+<p>Cliquez sur <strong>base</strong> puis sur <strong>Download R-… for Windows</strong>.</p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_02.png" class="img-fluid" style="width:100.0%"></a> <a href="https://cran.r-project.org/"><img src="images/cran_03.png" class="img-fluid" style="width:100.0%"></a></p>
+<p><br></p>
+<p>Choisissez l’<strong>emplacement de sauvegarde</strong> puis téléchargez le fichier.</p>
+<p><br></p>
+</section>
+<section id="installer-r" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="installer-r"><span class="header-section-number">3.2</span> Installer R</h2>
+<p>Naviguez jusqu’à l’emplacement de sauvegarde (<em>Téléchargements</em> par exemple) et double-cliquez sur le fichier <strong>R-…-win.exe</strong></p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_04.png" class="img-fluid" style="width:100.0%"></a></p>
+<p><br></p>
+<p>Choisissez la <strong>langue</strong> pour l’installation puis cliquez sur <strong>OK</strong></p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_05.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Parcourez les <strong>Informations</strong> puis cliquez sur <strong>Suivant</strong>.</p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_06.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Choisissez le <strong>dossier dans lequel sera installé R</strong> (<em>Program Files</em> par exemple).</p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_07.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Dans les <strong>Composants à installer</strong>, laissez les valeurs par défaut puis cliquez sur <strong>Suivant</strong>.</p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_08.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Dans les <strong>Options de démarrage</strong>, laissez les valeurs par défauts puis cliquez sur <strong>Suivant</strong>.</p>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_09.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Dans les <strong>Tâches supplémentaires</strong>, vous pouvez choisir de créer une icône sur le Bureau et/ou dans la barre de lancement rapide.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nous utilisons rarement R de manière isolée, vous pouvez donc laisser les valeurs par défaut.</p>
+</div>
+</div>
+<p><a href="https://cran.r-project.org/"><img src="images/cran_10.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Une fois R installé, cliquez sur <strong>Terminer</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La plupart des utilisateurs interagissent avec R à l’aide d’une <strong>interface graphique</strong>, dont la plus connue est <strong>RStudio</strong>.</p>
+</div>
+</div>
+<p><br></p>
+</section>
+</section>
+<section id="download_install_rstudio" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Télécharger et installer RStudio</h1>
+<p><br></p>
+<section id="télécharger-rstudio" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="télécharger-rstudio"><span class="header-section-number">4.1</span> Télécharger RStudio</h2>
+<p>Naviguez jusqu’au site internet de <a href="https://www.rstudio.com"><strong>RStudio</strong></a> et cliquez sur <strong>Products</strong> puis sur <strong>RStudio</strong>.</p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_01.png" class="img-fluid" style="width:75.0%"></a></p>
+<p><br></p>
+<p>Choisissez <strong>RStudio Desktop</strong></p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_02.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Cliquez sur <strong>Download RStudio Desktop</strong></p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_03.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Choisissez <strong>RStudio Desktop FREE</strong> puis cliquez sur <strong>Download</strong>.</p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_04.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Cliquez sur <strong>Download RStudio for Windows</strong> et choisissez l’emplacement de sauvegarde.</p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_05.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+</section>
+<section id="installer-rstudio" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="installer-rstudio"><span class="header-section-number">4.2</span> Installer RStudio</h2>
+<p>Naviguez jusqu’à l’emplacement de sauvegarde (<em>Téléchargements</em> par exemple) et double-cliquez sur le fichier <strong>RStudio-…exe</strong></p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_06.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Dans la fenêtre <strong>Installation de RStudio</strong> qui s’ouvre, cliquez sur <strong>Suivant</strong>.</p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_07.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Choisissez le <strong>dossier dans lequel sera installé RStudio</strong> (<em>Program Files</em> par exemple) et cliquez sur <strong>Suivant</strong>.</p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_08.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Dans le menu <strong>Choisissez un dossier dans le menu Démarrer</strong>, laissez la valeur par défaut (<em>RStudio</em>) et cliquez sur <strong>Installer</strong>.</p>
+<p><a href="https://www.rstudio.com/"><img src="images/rstudio_09.png" class="img-fluid" style="width:50.0%"></a></p>
+<p><br></p>
+<p>Une fois RStudio installé, cliquez sur <strong>Fermer</strong>.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -647,10 +751,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./def-r.html" class="pagination-link" aria-label="Qu'est-ce que R ?">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Qu’est-ce que R ?</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./premiers-pas.html" class="pagination-link" aria-label="Premiers pas avec R">
-        <span class="nav-page-text">Premiers pas avec R</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./intro-r.html" class="pagination-link" aria-label="Premiers pas avec R">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Premiers pas avec R</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

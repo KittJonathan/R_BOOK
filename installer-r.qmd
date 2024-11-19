@@ -1,0 +1,159 @@
+# Installer R et RStudio {#sec-installer-r}
+
+*Ce tutoriel est adapté de [Getting started with R and RStudio](https://ourcodingclub.github.io/tutorials/intro-to-r/) du site [Our Coding Club](https://ourcodingclub.github.io/).*
+
+<br>
+
+::: {.callout-note icon="true"}
+## Note
+
+Ce tutoriel vous permettra d'installer R et RStudio sous **Windows**
+:::
+
+<br>
+
+# Télécharger et installer R {#download_install_r}
+
+<br>
+
+## Télécharger R
+
+Naviguez jusqu'au site internet du [**CRAN (*The Comprehensive R Archive Network*)**](https://cran.r-project.org/) et choisissez **Download R for Windows**.
+
+[![](images/cran_01.png){width="100%"}](https://cran.r-project.org/)
+
+<br>
+
+Cliquez sur **base** puis sur **Download R-... for Windows**.
+
+[![](images/cran_02.png){width="100%"}](https://cran.r-project.org/) [![](images/cran_03.png){width="100%"}](https://cran.r-project.org/)
+
+<br>
+
+Choisissez l'**emplacement de sauvegarde** puis téléchargez le fichier.
+
+<br>
+
+## Installer R
+
+Naviguez jusqu'à l'emplacement de sauvegarde (*Téléchargements* par exemple) et double-cliquez sur le fichier **R-...-win.exe**
+
+[![](images/cran_04.png){width="100%"}](https://cran.r-project.org/)
+
+<br>
+
+Choisissez la **langue** pour l'installation puis cliquez sur **OK**
+
+[![](images/cran_05.png){width="50%"}](https://cran.r-project.org/)
+
+<br>
+
+Parcourez les **Informations** puis cliquez sur **Suivant**.
+
+[![](images/cran_06.png){width="50%"}](https://cran.r-project.org/)
+
+<br>
+
+Choisissez le **dossier dans lequel sera installé R** (*Program Files* par exemple).
+
+[![](images/cran_07.png){width="50%"}](https://cran.r-project.org/)
+
+<br>
+
+Dans les **Composants à installer**, laissez les valeurs par défaut puis cliquez sur **Suivant**.
+
+[![](images/cran_08.png){width="50%"}](https://cran.r-project.org/)
+
+<br>
+
+Dans les **Options de démarrage**, laissez les valeurs par défauts puis cliquez sur **Suivant**.
+
+[![](images/cran_09.png){width="50%"}](https://cran.r-project.org/)
+
+<br>
+
+Dans les **Tâches supplémentaires**, vous pouvez choisir de créer une icône sur le Bureau et/ou dans la barre de lancement rapide.
+
+::: {.callout-note icon="true"}
+## Note
+
+Nous utilisons rarement R de manière isolée, vous pouvez donc laisser les valeurs par défaut.
+:::
+
+[![](images/cran_10.png){width="50%"}](https://cran.r-project.org/)
+
+<br>
+
+Une fois R installé, cliquez sur **Terminer**.
+
+::: {.callout-note icon="true"}
+## Note
+
+La plupart des utilisateurs interagissent avec R à l'aide d'une **interface graphique**, dont la plus connue est **RStudio**.
+:::
+
+<br>
+
+# Télécharger et installer RStudio {#download_install_rstudio}
+
+<br>
+
+## Télécharger RStudio
+
+Naviguez jusqu'au site internet de [**RStudio**](https://www.rstudio.com) et cliquez sur **Products** puis sur **RStudio**.
+
+[![](images/rstudio_01.png){width="75%"}](https://www.rstudio.com/)
+
+<br>
+
+Choisissez **RStudio Desktop**
+
+[![](images/rstudio_02.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+Cliquez sur **Download RStudio Desktop**
+
+[![](images/rstudio_03.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+Choisissez **RStudio Desktop FREE** puis cliquez sur **Download**.
+
+[![](images/rstudio_04.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+Cliquez sur **Download RStudio for Windows** et choisissez l'emplacement de sauvegarde.
+
+[![](images/rstudio_05.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+## Installer RStudio
+
+Naviguez jusqu'à l'emplacement de sauvegarde (*Téléchargements* par exemple) et double-cliquez sur le fichier **RStudio-...exe**
+
+[![](images/rstudio_06.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+Dans la fenêtre **Installation de RStudio** qui s'ouvre, cliquez sur **Suivant**.
+
+[![](images/rstudio_07.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+Choisissez le **dossier dans lequel sera installé RStudio** (*Program Files* par exemple) et cliquez sur **Suivant**.
+
+[![](images/rstudio_08.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+Dans le menu **Choisissez un dossier dans le menu Démarrer**, laissez la valeur par défaut (*RStudio*) et cliquez sur **Installer**.
+
+[![](images/rstudio_09.png){width="50%"}](https://www.rstudio.com/)
+
+<br>
+
+Une fois RStudio installé, cliquez sur **Fermer**.
