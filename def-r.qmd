@@ -1,8 +1,16 @@
 # Qu'est-ce que R ? {#sec-def-r}
 
-R est un langage de programmation statistique qui a rapidement gagné en popularité dans de nombreux domaines scientifiques.
+<br>
 
-Il a été développé par Ross Ihaka et Robert Gentleman, du Département de Statistiques de l'Université d'Auckland, comme implémentation libre du langage de programmation S.
+::: {.callout-tip icon="false"}
+## R est un langage et un environnement de programmation, initialement développé pour les calculs statistiques et les graphiques[^def-r-1].
+:::
+
+[^def-r-1]: [What is R?](https://www.r-project.org/about.html)
+
+R a été écrit à l'origine par Robert Gentlement et Ross Ihaka, tous les deux membres du Département de Statistiques de l'Université d'Auckland[^def-r-2].
+
+[^def-r-2]: [Contributors](https://www.r-project.org/contributors.html)
 
 <br>
 
@@ -10,7 +18,7 @@ Il a été développé par Ross Ihaka et Robert Gentleman, du Département de St
 ## Quelques dates
 
 |  |  |
-|----------------|--------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | 1991 | Création du langage R |
 | 1993 | R est dévoilé au public |
 | 1996 | [Article dans le *Journal of Computational and Graphical Statistics*](https://www.stat.auckland.ac.nz/~ihaka/downloads/R-paper.pdf) |

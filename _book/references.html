@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>1&nbsp; Qu’est-ce que R ? – FORMATIONS R</title>
+<title>References – FORMATIONS R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./installer-r.html" rel="next">
-<link href="./premiers-pas.html" rel="prev">
+<link href="./summary.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./premiers-pas.html">Premiers pas avec R</a></li><li class="breadcrumb-item"><a href="./def-r.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Qu’est-ce que R ?</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html">References</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -123,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./def-r.html" class="sidebar-item-text sidebar-link active">
+  <a href="./def-r.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Qu’est-ce que R ?</span></span></a>
   </div>
 </li>
@@ -155,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
+  <a href="./references.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">References</span></a>
   </div>
 </li>
@@ -170,9 +188,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./premiers-pas.html">Premiers pas avec R</a></li><li class="breadcrumb-item"><a href="./def-r.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Qu’est-ce que R ?</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-def-r" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Qu’est-ce que R ?</span></span></h1>
+<h1 class="title">References</h1>
 </div>
 
 
@@ -189,82 +207,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br></p>
-<div class="callout callout-style-default callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-R est un langage et un environnement de programmation, initialement développé pour les calculs statistiques et les graphiques<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-<p>R a été écrit à l’origine par Robert Gentlement et Ross Ihaka, tous les deux membres du Département de Statistiques de l’Université d’Auckland<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
-<p>Il a été développé par Ross Ihaka et Robert Gentleman, du Département de Statistiques de l’Université d’Auckland, comme implémentation libre du langage de programmation S.</p>
-<p><br></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Quelques dates
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td>1991</td>
-<td>Création du langage R</td>
-</tr>
-<tr class="even">
-<td>1993</td>
-<td>R est dévoilé au public</td>
-</tr>
-<tr class="odd">
-<td>1996</td>
-<td><a href="https://www.stat.auckland.ac.nz/~ihaka/downloads/R-paper.pdf">Article dans le <em>Journal of Computational and Graphical Statistics</em></a></td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<p><br></p>
-<p>R désigne également le logiciel qui utilise ce langage pour des calculs statistiques (et tout un tas d’autres applications (manipulation de données, graphiques, …).</p>
-<p>Il dispose d’une communauté en ligne très active ainsi que d’extensions appelées <strong>packages</strong> pour presque tous les domaines et applications possibles et imaginables (cartographie, fouille de texte, modélisation, …).</p>
-<p>Contrairement à d’autres logiciels de statistiques comme Minitab ou SPSS, R peut être exécuté entièrement en <strong>ligne de commande</strong> et ne nécessite pas d’interface graphique, ce qui lui confère une grande flexibilité.</p>
-<p><br></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Quelques avantages de R
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><p>C’est un outil libre et open source (tout le monde peut utiliser le code et voir comment il fonctionne)</p></li>
-<li><p>C’est un langage de programmation plutôt qu’une interface graphique, ce qui permet à l’utilisateur de sauvegarder facilement des <strong>scripts</strong> pour les ré-utiliser ou les partager</p></li>
-<li><p>Beaucoup de personnes l’utilisent dans beaucoup de domaines différents - il est rare d’être confronté à un problème qui n’a jamais été résolu !</p></li>
-</ul>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-knuth84" class="csl-entry" role="listitem">
+Knuth, Donald E. 1984. <span>“Literate Programming.”</span> <em>Comput.
+J.</em> 27 (2): 97–111. <a href="https://doi.org/10.1093/comjnl/27.2.97">https://doi.org/10.1093/comjnl/27.2.97</a>.
 </div>
 </div>
 
 
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1"><p><a href="https://www.r-project.org/about.html">What is R?</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p><a href="https://www.r-project.org/contributors.html">Contributors</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -689,14 +639,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./premiers-pas.html" class="pagination-link" aria-label="Premiers pas avec R">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Premiers pas avec R</span>
+      <a href="./summary.html" class="pagination-link" aria-label="Summary">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Summary</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./installer-r.html" class="pagination-link" aria-label="Installer R et RStudio">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Installer R et RStudio</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
